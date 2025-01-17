@@ -18,15 +18,15 @@ int main() {
     
     printf("Cadastro de cartas - SUPER TRUNFO!\n\n");
 
-    // Captura de dados com mensagens adequadas
+    // Inserção de dados com mensagens adequadas
     printf("Código da cidade (máximo 3 caracteres): ");
-    scanf("%3s", codigo_cidade);  // Limita a leitura a 3 caracteres
+    scanf("%3s", codigo_cidade);
 
     printf("País: ");
-    scanf(" %30[^\n]", pais);  // Lê até 30 caracteres, incluindo espaços
+    scanf(" %30[^\n]", pais);
 
     printf("Cidade: ");
-    scanf(" %30[^\n]", cidade);  // Lê até 30 caracteres, incluindo espaços
+    scanf(" %30[^\n]", cidade);
 
     printf("População: ");
     scanf("%d", &populacao);
