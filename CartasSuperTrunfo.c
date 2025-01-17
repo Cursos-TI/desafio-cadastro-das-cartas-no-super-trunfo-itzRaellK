@@ -20,13 +20,13 @@ int main() {
 
     // Inserção de dados com mensagens adequadas
     printf("Código da cidade (máximo 3 caracteres): ");
-    scanf("%3s", codigo_cidade);
+    scanf("%3s", codigo_cidade); // Limita até 3 caracteres
 
     printf("País: ");
-    scanf(" %30[^\n]", pais);
+    scanf(" %30[^\n]", pais);    // Limita até 30 caracteres
 
     printf("Cidade: ");
-    scanf(" %30[^\n]", cidade);
+    scanf(" %30[^\n]", cidade);  // Limita até 30 caracteres
 
     printf("População: ");
     scanf("%d", &populacao);
